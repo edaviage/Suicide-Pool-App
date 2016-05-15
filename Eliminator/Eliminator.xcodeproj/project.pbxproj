@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF16AB4F1CE8B05A002256D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16AB4E1CE8B05A002256D3 /* AppDelegate.swift */; };
+		CF16AB511CE8B05A002256D3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16AB501CE8B05A002256D3 /* RootViewController.swift */; };
+		CF16AB531CE8B05A002256D3 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16AB521CE8B05A002256D3 /* DataViewController.swift */; };
+		CF16AB551CE8B05A002256D3 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16AB541CE8B05A002256D3 /* ModelController.swift */; };
+		CF16AB581CE8B05A002256D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF16AB561CE8B05A002256D3 /* Main.storyboard */; };
+		CF16AB5A1CE8B05A002256D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF16AB591CE8B05A002256D3 /* Assets.xcassets */; };
+		CF16AB5D1CE8B05A002256D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF16AB5B1CE8B05A002256D3 /* LaunchScreen.storyboard */; };
+		CF16AB681CE8B05A002256D3 /* EliminatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16AB671CE8B05A002256D3 /* EliminatorTests.swift */; };
+		CF16AB731CE8B05A002256D3 /* EliminatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16AB721CE8B05A002256D3 /* EliminatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF16AB641CE8B05A002256D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF16AB431CE8B05A002256D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF16AB4A1CE8B05A002256D3;
+			remoteInfo = Eliminator;
+		};
+		CF16AB6F1CE8B05A002256D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF16AB431CE8B05A002256D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF16AB4A1CE8B05A002256D3;
+			remoteInfo = Eliminator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF16AB4B1CE8B05A002256D3 /* Eliminator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eliminator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF16AB4E1CE8B05A002256D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF16AB501CE8B05A002256D3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		CF16AB521CE8B05A002256D3 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		CF16AB541CE8B05A002256D3 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		CF16AB571CE8B05A002256D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF16AB591CE8B05A002256D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF16AB5C1CE8B05A002256D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF16AB5E1CE8B05A002256D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF16AB631CE8B05A002256D3 /* EliminatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EliminatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF16AB671CE8B05A002256D3 /* EliminatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliminatorTests.swift; sourceTree = "<group>"; };
+		CF16AB691CE8B05A002256D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF16AB6E1CE8B05A002256D3 /* EliminatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EliminatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF16AB721CE8B05A002256D3 /* EliminatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliminatorUITests.swift; sourceTree = "<group>"; };
+		CF16AB741CE8B05A002256D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF16AB481CE8B05A002256D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF16AB601CE8B05A002256D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF16AB6B1CE8B05A002256D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF16AB421CE8B05A002256D3 = {
+			isa = PBXGroup;
+			children = (
+				CF16AB4D1CE8B05A002256D3 /* Eliminator */,
+				CF16AB661CE8B05A002256D3 /* EliminatorTests */,
+				CF16AB711CE8B05A002256D3 /* EliminatorUITests */,
+				CF16AB4C1CE8B05A002256D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF16AB4C1CE8B05A002256D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF16AB4B1CE8B05A002256D3 /* Eliminator.app */,
+				CF16AB631CE8B05A002256D3 /* EliminatorTests.xctest */,
+				CF16AB6E1CE8B05A002256D3 /* EliminatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF16AB4D1CE8B05A002256D3 /* Eliminator */ = {
+			isa = PBXGroup;
+			children = (
+				CF16AB4E1CE8B05A002256D3 /* AppDelegate.swift */,
+				CF16AB501CE8B05A002256D3 /* RootViewController.swift */,
+				CF16AB521CE8B05A002256D3 /* DataViewController.swift */,
+				CF16AB541CE8B05A002256D3 /* ModelController.swift */,
+				CF16AB561CE8B05A002256D3 /* Main.storyboard */,
+				CF16AB591CE8B05A002256D3 /* Assets.xcassets */,
+				CF16AB5B1CE8B05A002256D3 /* LaunchScreen.storyboard */,
+				CF16AB5E1CE8B05A002256D3 /* Info.plist */,
+			);
+			path = Eliminator;
+			sourceTree = "<group>";
+		};
+		CF16AB661CE8B05A002256D3 /* EliminatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF16AB671CE8B05A002256D3 /* EliminatorTests.swift */,
+				CF16AB691CE8B05A002256D3 /* Info.plist */,
+			);
+			path = EliminatorTests;
+			sourceTree = "<group>";
+		};
+		CF16AB711CE8B05A002256D3 /* EliminatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF16AB721CE8B05A002256D3 /* EliminatorUITests.swift */,
+				CF16AB741CE8B05A002256D3 /* Info.plist */,
+			);
+			path = EliminatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF16AB4A1CE8B05A002256D3 /* Eliminator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF16AB771CE8B05A002256D3 /* Build configuration list for PBXNativeTarget "Eliminator" */;
+			buildPhases = (
+				CF16AB471CE8B05A002256D3 /* Sources */,
+				CF16AB481CE8B05A002256D3 /* Frameworks */,
+				CF16AB491CE8B05A002256D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eliminator;
+			productName = Eliminator;
+			productReference = CF16AB4B1CE8B05A002256D3 /* Eliminator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF16AB621CE8B05A002256D3 /* EliminatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF16AB7A1CE8B05A002256D3 /* Build configuration list for PBXNativeTarget "EliminatorTests" */;
+			buildPhases = (
+				CF16AB5F1CE8B05A002256D3 /* Sources */,
+				CF16AB601CE8B05A002256D3 /* Frameworks */,
+				CF16AB611CE8B05A002256D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF16AB651CE8B05A002256D3 /* PBXTargetDependency */,
+			);
+			name = EliminatorTests;
+			productName = EliminatorTests;
+			productReference = CF16AB631CE8B05A002256D3 /* EliminatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF16AB6D1CE8B05A002256D3 /* EliminatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF16AB7D1CE8B05A002256D3 /* Build configuration list for PBXNativeTarget "EliminatorUITests" */;
+			buildPhases = (
+				CF16AB6A1CE8B05A002256D3 /* Sources */,
+				CF16AB6B1CE8B05A002256D3 /* Frameworks */,
+				CF16AB6C1CE8B05A002256D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF16AB701CE8B05A002256D3 /* PBXTargetDependency */,
+			);
+			name = EliminatorUITests;
+			productName = EliminatorUITests;
+			productReference = CF16AB6E1CE8B05A002256D3 /* EliminatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF16AB431CE8B05A002256D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Everett Daviage";
+				TargetAttributes = {
+					CF16AB4A1CE8B05A002256D3 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = XUU699DLMU;
+					};
+					CF16AB621CE8B05A002256D3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CF16AB4A1CE8B05A002256D3;
+					};
+					CF16AB6D1CE8B05A002256D3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CF16AB4A1CE8B05A002256D3;
+					};
+				};
+			};
+			buildConfigurationList = CF16AB461CE8B05A002256D3 /* Build configuration list for PBXProject "Eliminator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF16AB421CE8B05A002256D3;
+			productRefGroup = CF16AB4C1CE8B05A002256D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF16AB4A1CE8B05A002256D3 /* Eliminator */,
+				CF16AB621CE8B05A002256D3 /* EliminatorTests */,
+				CF16AB6D1CE8B05A002256D3 /* EliminatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF16AB491CE8B05A002256D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF16AB5D1CE8B05A002256D3 /* LaunchScreen.storyboard in Resources */,
+				CF16AB5A1CE8B05A002256D3 /* Assets.xcassets in Resources */,
+				CF16AB581CE8B05A002256D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF16AB611CE8B05A002256D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF16AB6C1CE8B05A002256D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF16AB471CE8B05A002256D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF16AB511CE8B05A002256D3 /* RootViewController.swift in Sources */,
+				CF16AB551CE8B05A002256D3 /* ModelController.swift in Sources */,
+				CF16AB531CE8B05A002256D3 /* DataViewController.swift in Sources */,
+				CF16AB4F1CE8B05A002256D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF16AB5F1CE8B05A002256D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF16AB681CE8B05A002256D3 /* EliminatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF16AB6A1CE8B05A002256D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF16AB731CE8B05A002256D3 /* EliminatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF16AB651CE8B05A002256D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF16AB4A1CE8B05A002256D3 /* Eliminator */;
+			targetProxy = CF16AB641CE8B05A002256D3 /* PBXContainerItemProxy */;
+		};
+		CF16AB701CE8B05A002256D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF16AB4A1CE8B05A002256D3 /* Eliminator */;
+			targetProxy = CF16AB6F1CE8B05A002256D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF16AB561CE8B05A002256D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF16AB571CE8B05A002256D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF16AB5B1CE8B05A002256D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF16AB5C1CE8B05A002256D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF16AB751CE8B05A002256D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF16AB761CE8B05A002256D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF16AB781CE8B05A002256D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Eliminator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daviage.Eliminator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CF16AB791CE8B05A002256D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Eliminator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daviage.Eliminator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		CF16AB7B1CE8B05A002256D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EliminatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daviage.EliminatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eliminator.app/Eliminator";
+			};
+			name = Debug;
+		};
+		CF16AB7C1CE8B05A002256D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EliminatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daviage.EliminatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eliminator.app/Eliminator";
+			};
+			name = Release;
+		};
+		CF16AB7E1CE8B05A002256D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EliminatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daviage.EliminatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Eliminator;
+			};
+			name = Debug;
+		};
+		CF16AB7F1CE8B05A002256D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EliminatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daviage.EliminatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Eliminator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF16AB461CE8B05A002256D3 /* Build configuration list for PBXProject "Eliminator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF16AB751CE8B05A002256D3 /* Debug */,
+				CF16AB761CE8B05A002256D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF16AB771CE8B05A002256D3 /* Build configuration list for PBXNativeTarget "Eliminator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF16AB781CE8B05A002256D3 /* Debug */,
+				CF16AB791CE8B05A002256D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF16AB7A1CE8B05A002256D3 /* Build configuration list for PBXNativeTarget "EliminatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF16AB7B1CE8B05A002256D3 /* Debug */,
+				CF16AB7C1CE8B05A002256D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF16AB7D1CE8B05A002256D3 /* Build configuration list for PBXNativeTarget "EliminatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF16AB7E1CE8B05A002256D3 /* Debug */,
+				CF16AB7F1CE8B05A002256D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF16AB431CE8B05A002256D3 /* Project object */;
+}
